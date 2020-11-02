@@ -1,7 +1,7 @@
-package grailsrest
+package api
+// package grailsrest
 
 class UrlMappings {
-
     static mappings = {
         delete "/$controller/$id(.$format)?"(action:"delete")
         get "/$controller(.$format)?"(action:"index")
